@@ -1,6 +1,6 @@
 $colorPrincipal:rgb(51, 51, 42);
 $tamañoImagenes: 400px;
-@import"estilosCompartidos.scss";
+
 @import"nav.scss";
 @import"body.scss";
 @import"mainContacto.scss";
@@ -9,4 +9,4 @@ $tamañoImagenes: 400px;
 @import"mainServicios.scss";
 @import"mainGaleria.scss";
 @import"footer.scss";
-
+@import"estilosCompartidos.scss";

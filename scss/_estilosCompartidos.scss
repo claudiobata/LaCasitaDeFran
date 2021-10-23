@@ -1,8 +1,7 @@
 .titulo{
     font-family: Londrina Solid;
-    font-size: 70px;
-    margin-top: 30px;
-    margin-bottom: 80px;
+
+    
     color: blanchedalmond;
     text-align: center;
     font-style:normal;
@@ -28,4 +27,38 @@
     1px 22px 10px rgba(16, 16, 16, 0.5),
     1px 25px 35px rgba(16, 16, 16, 0.5),
     1px 30px 60px rgba(16, 16, 16, 0.5);
+}
+
+.cardEstilo{
+    background-color: rgba(0,0,0,0.7);
+    color:white;
+    border-radius: 15px;
+}
+
+
+@media screen and (min-width: 360px) {
+    .titulo{
+        font-size: 35px;
+        margin-top: 15px;
+        margin-bottom: 40px;
+    }
+    .cardEstilo{
+        margin-bottom: 15px;
+        height: 300px;
+        width: 200px;
+    }
+}
+
+
+@media screen and (min-width: 1162px) {
+    .titulo{
+        font-size: 70px;
+        margin-top: 30px;
+        margin-bottom: 80px;
+    }
+    .cardEstilo{
+        margin-bottom: 15px;
+        height: 350px;
+        width: 300px;
+    }
 }
