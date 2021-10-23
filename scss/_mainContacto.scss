@@ -1,38 +1,36 @@
-.colorNegro{
-    color:white;
-    text-shadow: 2px 2px 2px black;
+.pConsulta{
+    font-family: Londrina Solid;
+    color:rgb(12, 11, 11);
+    text-shadow: 2px 2px 2px rgb(245, 243, 243);
     font-weight: bold;
     text-align: center;
+    font-size: 28px;
 }
 
-.tituloContacto{
-    font-family: Gluten;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    /* border: 1px solid ; */
-    color: white;
-    /* background-color: $colorPrincipal; */
+.divParrafoContacto{
+    display: inline-flex;
+    align-items: center;
+}
+
+
+.divParrafoContacto p{
     text-align: center;
-    font-style:normal;
-    text-transform: uppercase;
-    text-decoration:solid;
-    text-shadow: 4px 4px 4px black;
+    background-color: rgba(212, 206, 206, 0.466);
+    padding: 10px;
+    border-radius: 15px;
+    font-family: Londrina Solid;
+    font-size: 28px;
+    text-shadow:    1px 1px 1px rgb(247, 242, 242),
 }
 
-@media only screen and (min-width: 320px) {
-    .colorNegro{
-        font-size: 12px;
-    }
-    .tituloContacto{
-        font-size: 35px;
-    }
+label{
+    background-color: rgba(212, 206, 206, 0.466);
+    padding:10px;
+    border-radius: 15px;
+    box-shadow: 0 10px 12px -4px rgba(0, 0, 0, 0.8);
 }
 
-@media only screen and (min-width: 999px) {
-    .colorNegro{
-        font-size: 25px;
-    }
-    .tituloContacto{
-        font-size: 70px;
-    }
+input, textarea, select{
+    box-shadow: 0 10px 12px -4px rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
 }

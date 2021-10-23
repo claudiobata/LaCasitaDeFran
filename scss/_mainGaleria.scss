@@ -1,0 +1,32 @@
+.divGaleria {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background-color: rgba(212, 206, 206, 0.466);
+    border-radius: 15px;
+}
+
+.materialbox-caption {
+    bottom: 30px;
+    right: 0;
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    background: #000;
+    box-shadow: 5px 5px #fff;
+    font-size: 20px;
+    color: #fff;
+    line-height: 28px;
+}
+
+.imagenGaleria {
+    width: 200px;
+    height: 150px;
+    box-shadow: 0 10px 12px -4px rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Reserve su estadía en el Vallde de Calamuchita. ¡Los esperamos!">
-    <meta name="keywords"  content="RESERVA,CABAÑA, HOTELES, HOSPEDAJE, TURISMO, VACACIONES, CALAMUCHITA, VILLA DEL DIQUE, SIERRAS, LAGO">
+    <meta name="keywords"
+        content="RESERVA,CABAÑA, HOTELES, HOSPEDAJE, TURISMO, VACACIONES, CALAMUCHITA, VILLA DEL DIQUE, SIERRAS, LAGO">
     <link rel="short cut icon" href="imagenes/icono.png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;400;900&display=swap" rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Gluten:wght@200;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="bootstrap-5.1.0-dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-<title>Información para contacto Cabaña La Casita de Fran</title>
-  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Información para contacto Cabaña La Casita de Fran</title>
+
 </head>
+
 <body>
-    
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Inicio</a>
@@ -34,7 +43,7 @@
                         <a class="nav-link" href="servicios.html">Servicios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="tarifas.html">Tarifas</a>
+                        <a class="nav-link" href="galeria.html">Galeria</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contacto.html">Contacto</a>
@@ -43,74 +52,98 @@
             </div>
         </div>
     </nav>
-    
-    <main class="container-fluid">
-        <h1 class="tituloContacto animate__animated animate__tada">CONTACTO</h1>
-        <form action="" method="post">
-            <fieldset>
-                <p class="colorNegro">
-                    <label for="nombre" id="nombre" name="nombre">Nombre:</label>
-                    <input type="text" id="nombre" name="nombre" required>
-                </p>
-                <p class="colorNegro">
-                    <label for="apellido" id="apellido" name="apellido">Apellido:</label>
-                    <input type="text" id="apellido" name="apellido" required>
-                </p>
-                <p class="colorNegro">
-                    <label for="email" id="email" name="email">E - mail :</label>
-                    <input type="text" id="email" name="email" required>
-                </p>
-                <p class="colorNegro">
-                    <label for="telefono" id="telefono" name="telefono">Telefono:</label>
-                    <input type="text" id="telefono" name="telefono" required>
-                </p>
-                <p class="colorNegro">
-                <label for="opcion" id="opcion" name="opcion">
-                    <span>Tipo de sexo</span>
-                </label>
-                <select name="sexo" id="sexo">
-                    <option value="Masculino">Masculino</option>
-                    <option value="Femenino">Femenino</option>
-                </select>
-                </p>
+
+    <main class="row container-fluid">
+        <h1 class="titulo animate__animated animate__tada">CONTACTO</h1>
+        <div class="divFormularioContacto col-md-7">
+            <form action="" method="post">
+                <fieldset>
+                    <p class="pConsulta">
+                        <label for="nombre" id="nombre" name="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </p>
+                    <p class="pConsulta">
+                        <label for="apellido" id="apellido" name="apellido">Apellido:</label>
+                        <input type="text" id="apellido" name="apellido" required>
+                    </p>
+                    <p class="pConsulta">
+                        <label for="email" id="email" name="email">E - mail :</label>
+                        <input type="text" id="email" name="email" required>
+                    </p>
+                    <p class="pConsulta">
+                        <label for="telefono" id="telefono" name="telefono">Telefono:</label>
+                        <input type="text" id="telefono" name="telefono" required>
+                    <!-- </p>
+                    <p class="colorNegro">
+                        <label for="opcion" id="opcion" name="opcion">
+                            <span>Tipo de sexo:</span>
+                        </label>
+                        <select name="sexo" id="sexo">
+                            <option value="Masculino">Masculino</option>
+                            <option value="Femenino">Femenino</option>
+                        </select>
+                    </p> -->
+
+                    <p class="pConsulta">¿Consulta?</p>
+
+                    <p class="pConsulta">
+                        <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+                        </textarea>
+                    </p>
+
+                    <p class="pConsulta">
+                        <input type="submit" value="Enviar Datos"></input>
+                        <input type="reset" value="Borrar Datos"></input>
+                    </p>
+
+                    <!-- <p class="colorNegro">
+                        <input type="reset" value="Borrar Datos"></input>
+                    </p> -->
+
+                </fieldset>
+
+            </form>
+        </div>
+        <div class="divParrafoContacto col-md-5">
+            <p>Te invitamos a que nos contactes para realizar una reserva o por cualquier consulta, trataremos de responderte a la brevedad.<br><br>
+                • Llamanos a:<br>0351-155721619 / 0351-153355357<br><br>
+                • Envianos un Whatsapp a:<br>+5493515721619 / +5493513355357<br><br>• Envianos un e-mail a: 
+                <br>lacasitadefran.cba@gmail.com<br><br>• Siguenos en nuestras redes: <br>
                 
-                <p class="colorNegro">¿Consulta?</p>
-        
-                <p class="colorNegro">
-                    <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
-                    </textarea>
-                </p>
-        
-                <p class="colorNegro">
-                    <input type="submit" value="Enviar Datos"></input>
-                </p>
-        
-                <p class="colorNegro">
-                    <input type="reset" value="Borrar Datos"></input>
-                </p>
-        
-            </fieldset>
-        
-        </form>
+                Facebook <a href="https://www.facebook.com/lcdfran">https://www.facebook.com/lcdfran</a> 
+                Instagram <a href="https://www.instagram.com/lcdfran/">https://www.instagram.com/lcdfran/</a>
+            </p>    
+                
+        </div>
     </main>
 
-    <footer> 
+    <footer>
         <div>
-            <iframe class="mapa container-fluid" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3377.3844361865954!2d-64.44991480863038!3d-32.166906520592036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d299558e543f79%3A0x22dbae662af8280a!2sCaba%C3%B1a%20La%20Casita%20de%20Fran!5e0!3m2!1ses!2sar!4v1628640954723!5m2!1ses!2sar" allowfullscreen="" loading="lazy"></iframe>
+            <iframe class="mapa container-fluid"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3377.3844361865954!2d-64.44991480863038!3d-32.166906520592036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d299558e543f79%3A0x22dbae662af8280a!2sCaba%C3%B1a%20La%20Casita%20de%20Fran!5e0!3m2!1ses!2sar!4v1628640954723!5m2!1ses!2sar"
+                allowfullscreen="" loading="lazy"></iframe>
         </div>
-        
+
         <div class="letraGoogle">
-            &copy; 2021 Cabaña La Casita de Fran <br>- Calle Los Paraisos S/N Villa del Dique, Calamuchita, Córdoba, Argentina -<br>Telefonos (0351) 155721619 / (0351) 153355357
+            &copy; 2021 Cabaña La Casita de Fran <br>- Calle Los Paraisos S/N Villa del Dique, Calamuchita, Córdoba,
+            Argentina -<br>Telefonos (0351) 155721619 / (0351) 153355357
         </div>
-        
+
         <div>
-            <a href="https://www.facebook.com/lcdfran" target="_blank" title="Cabañas La Casita de Fran en Facebook"><img class="tamaño animacion" src="imagenes/facebook.png" alt=""></a>
-            <a href="https://www.facebook.com/lcdfran" target="_blank" title="Cabañas La Casita de Fran en Instagram"><img class="tamaño animacion" src="imagenes/instagram.png" alt=""></a>
-            <a href="https://www.facebook.com/lcdfran" target="_blank" title="Cabañas La Casita de Fran en Whatsapp"><img class="tamaño animacion" src="imagenes/whatsapp.png" alt=""></a>
+            <a href="https://www.facebook.com/lcdfran" target="_blank"
+                title="Cabañas La Casita de Fran en Facebook"><img class="tamaño animacion" src="imagenes/facebook.png"
+                    alt=""></a>
+            <a href="https://www.facebook.com/lcdfran" target="_blank"
+                title="Cabañas La Casita de Fran en Instagram"><img class="tamaño animacion"
+                    src="imagenes/instagram.png" alt=""></a>
+            <a href="https://www.facebook.com/lcdfran" target="_blank"
+                title="Cabañas La Casita de Fran en Whatsapp"><img class="tamaño animacion" src="imagenes/whatsapp.png"
+                    alt=""></a>
         </div>
     </footer>
 
     <script src="bootstrap-5.1.0-dist/js/bootstrap.min.js"></script>
 
 </body>
+
 </html>

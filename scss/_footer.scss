@@ -4,6 +4,7 @@ footer{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+    background-color: rgba(0,0,0,0.7);
 }
 
 .animacion:hover{
@@ -25,7 +26,7 @@ footer{
 
 }
 
-@media only screen and (min-width: 320px) {
+/* @media only screen and (min-width: 320px) {
     .letraGoogle{
         font-family: Patrick hand;
         color: white;
@@ -34,20 +35,17 @@ footer{
         text-shadow: 2px 2px 2px black;
     }
     .tamaño{
-        height: 30px;
-        width: 30px;
+        height: 60px;
+        width: 60px;
     }
     .mapa{
         height: $tamañoImagenes/4;
         width: $tamañoImagenes/2;
-        /* height: 200px;
-        width: 400px; */
-        border-radius: 15px;
         margin-top: 20px;
         margin-bottom: 20px;
     }
 }
-
+ */
 @media only screen and (min-width: 999px) {
     .letraGoogle{
         font-family: Patrick hand;
@@ -57,15 +55,12 @@ footer{
         text-shadow: 2px 2px 2px black;
     }
     .tamaño{
-        height: 60px;
-        width: 60px;
+        height: 80px;
+        width: 80px;
     }
     .mapa{
-        height: $tamañoImagenes/2;
-        width: $tamañoImagenes;
-        /* height: 200px;
-        width: 400px; */
-        border-radius: 30px;
+        height: 150px;
+        width: 300px;
         margin-top: 30px;
         margin-bottom: 30px;
     }
