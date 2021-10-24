@@ -76,14 +76,33 @@
     }
     .h2Servicios{
         margin-bottom: 15px;
-        font-size: 20px;
+        font-size: 15px;
     }
     .imgCardServicios{
         width: 10rem;
         height: auto;
         object-fit: cover;
     }
+    .parrafoServiciosCelular{
+        display: flex;
+        flex-direction: row;
+        color: white;
+        text-align: center;
+        background-color: rgba(0,0,0,0.7);
+        padding: 10px;
+        border-radius: 15px;
+        font-family: Londrina Solid;
+        font-size: 15px;
+        text-shadow: 1px 1px 1px rgb(2, 2, 2);
+    }
 }
+
+@media screen and (min-width: 768px) {
+    .parrafoServiciosCelular{
+        display: none;
+    }
+}
+
 
 @media screen and (min-width: 1162px) {
     .cardServicios{

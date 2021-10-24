@@ -18,35 +18,52 @@ body {
 .pConsulta {
   font-family: Londrina Solid;
   color: white;
-  text-shadow: 2px 2px 2px black;
-  font-weight: bold;
-  text-align: center;
-  font-size: 28px; }
+  text-align: center; }
+
+.fondoConsulta {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 15px;
+  font-family: Londrina Solid;
+  color: white;
+  text-align: center; }
 
 .divParrafoContacto {
   display: inline-flex;
   align-items: center;
-  color: white;
-  text-shadow: 2px 2px 2px black; }
+  color: white; }
 
 .divParrafoContacto p {
   text-align: center;
   background-color: rgba(0, 0, 0, 0.7);
   padding: 10px;
   border-radius: 15px;
-  font-family: Londrina Solid;
-  font-size: 28px;
-  text-shadow: 1px 1px 1px #f7f2f2; }
+  font-family: Londrina Solid; }
 
 label {
   background-color: rgba(0, 0, 0, 0.7);
   padding: 10px;
   border-radius: 15px;
-  box-shadow: 0 10px 12px -4px rgba(248, 248, 248, 0.8); }
+  box-shadow: 0 10px 12px -4px black; }
 
 input, textarea, select {
-  box-shadow: 0 10px 12px -4px rgba(248, 248, 248, 0.8);
+  box-shadow: 0 10px 12px -4px black;
   border-radius: 15px; }
+
+@media screen and (min-width: 360px) {
+  .divParrafoContacto p {
+    font-size: 15px; }
+  .pConsulta {
+    font-size: 15px; }
+  .fondoConsulta {
+    font-size: 15px; } }
+
+@media screen and (min-width: 1162px) {
+  .divParrafoContacto p {
+    font-size: 28px; }
+  .pConsulta {
+    font-size: 28px; }
+  .fondoConsulta {
+    font-size: 28px; } }
 
 .formato {
   margin-bottom: 30px; }
@@ -65,10 +82,32 @@ input, textarea, select {
   margin-top: 30px;
   margin-bottom: 30px; }
 
-.parrafo {
-  font-size: 50px;
-  color: blanchedalmond;
-  text-shadow: 4px 4px 4px #424141; }
+@media screen and (min-width: 360px) {
+  .parrafoIndexCelular {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 15px;
+    font-family: Londrina Solid;
+    font-size: 15px;
+    text-shadow: 1px 1px 1px #020202; } }
+
+@media screen and (min-width: 768px) {
+  .parrafoIndexCelular {
+    display: none; } }
+
+@media screen and (min-width: 1162px) {
+  .h5Index {
+    color: blanchedalmond;
+    font-size: 50px;
+    text-shadow: 4px 4px 4px #424141; }
+  .parrafoIndex {
+    font-size: 25px;
+    color: blanchedalmond;
+    text-shadow: 4px 4px 4px #424141; } }
 
 .pNosotros {
   color: white;
@@ -77,7 +116,6 @@ input, textarea, select {
   padding: 10px;
   border-radius: 15px;
   font-family: Londrina Solid;
-  font-size: 28px;
   text-shadow: 1px 1px 1px #020202; }
 
 .divCardNosotros {
@@ -98,6 +136,14 @@ input, textarea, select {
 
 .card-body {
   text-align: center; }
+
+@media screen and (min-width: 360px) {
+  .pNosotros {
+    font-size: 15px; } }
+
+@media screen and (min-width: 1162px) {
+  .pNosotros {
+    font-size: 28px; } }
 
 .h5Servicios {
   text-align: center;
@@ -166,11 +212,26 @@ input, textarea, select {
     font-size: 15px; }
   .h2Servicios {
     margin-bottom: 15px;
-    font-size: 20px; }
+    font-size: 15px; }
   .imgCardServicios {
     width: 10rem;
     height: auto;
-    object-fit: cover; } }
+    object-fit: cover; }
+  .parrafoServiciosCelular {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 15px;
+    font-family: Londrina Solid;
+    font-size: 15px;
+    text-shadow: 1px 1px 1px #020202; } }
+
+@media screen and (min-width: 768px) {
+  .parrafoServiciosCelular {
+    display: none; } }
 
 @media screen and (min-width: 1162px) {
   .cardServicios {
@@ -193,11 +254,13 @@ input, textarea, select {
 .divGaleria {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   align-content: center;
-  background-color: rgba(212, 206, 206, 0.466);
-  border-radius: 15px; }
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 30px; }
 
 .materialbox-caption {
   bottom: 30px;
@@ -219,6 +282,14 @@ input, textarea, select {
   border-radius: 15px;
   margin-top: 10px;
   margin-bottom: 10px; }
+
+.footerGaleria {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center; }
 
 footer {
   display: flex;
@@ -262,7 +333,7 @@ footer {
     height: 40px;
     width: 40px; }
   .mapa {
-    height: 100px;
+    height: 150px;
     width: 200px;
     margin-top: 15px;
     margin-bottom: 15px; } }

@@ -1,11 +1,13 @@
 .divGaleria {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     align-content: center;
-    background-color: rgba(212, 206, 206, 0.466);
     border-radius: 15px;
+    background-color: rgba(0,0,0,0.7);
+    margin-bottom: 30px;
 }
 
 .materialbox-caption {
@@ -29,4 +31,15 @@
     border-radius: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+
+.footerGaleria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+
 }

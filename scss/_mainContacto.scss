@@ -1,17 +1,21 @@
 .pConsulta{
     font-family: Londrina Solid;
     color:white;
-    text-shadow: 2px 2px 2px rgb(0, 0, 0);
-    font-weight: bold;
     text-align: center;
-    font-size: 28px;
+}
+
+.fondoConsulta{
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 15px;
+    font-family: Londrina Solid;
+    color:white;
+    text-align: center;
 }
 
 .divParrafoContacto{
     display: inline-flex;
     align-items: center;
     color: white;
-    text-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
 
 
@@ -21,18 +25,41 @@
     padding: 10px;
     border-radius: 15px;
     font-family: Londrina Solid;
-    font-size: 28px;
-    text-shadow:    1px 1px 1px rgb(247, 242, 242),
+    
 }
 
 label{
     background-color: rgba(0,0,0,0.7);
     padding:10px;
     border-radius: 15px;
-    box-shadow: 0 10px 12px -4px rgba(248, 248, 248, 0.8);
+    box-shadow: 0 10px 12px -4px rgba(0, 0, 0, 1);
 }
 
 input, textarea, select{
-    box-shadow: 0 10px 12px -4px rgba(248, 248, 248, 0.8);
+    box-shadow: 0 10px 12px -4px rgba(0, 0, 0, 1);
     border-radius: 15px;
+}
+
+@media screen and (min-width: 360px) {
+    .divParrafoContacto p{
+        font-size: 15px;
+    }
+    .pConsulta{
+        font-size: 15px;
+    }
+    .fondoConsulta{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 1162px) {
+    .divParrafoContacto p{
+        font-size: 28px;
+    }
+    .pConsulta{
+        font-size: 28px;
+    }
+    .fondoConsulta{
+        font-size: 28px;
+    }
 }
