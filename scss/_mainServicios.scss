@@ -120,9 +120,31 @@
         margin-bottom: 30px;
         font-size: 40px;
     }
-    .im
     .imgCardServicios{
         width: 17rem;
+        height: auto;
+        object-fit: cover;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .cardServicios{
+        width: 20rem;
+    }
+    
+    .h5Servicios{
+        margin-top: 35px;
+        padding: 60px;
+        margin-bottom: 35px;
+        text-shadow: 2px 2px 2px rgb(2, 2, 2);
+        font-size: 40px;
+    }
+    .h2Servicios{
+        margin-bottom: 35px;
+        font-size: 55px;
+    }
+    .imgCardServicios{
+        width: 30rem;
         height: auto;
         object-fit: cover;
     }

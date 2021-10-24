@@ -245,9 +245,25 @@ input, textarea, select {
   .h2Servicios {
     margin-bottom: 30px;
     font-size: 40px; }
-  .im
-.imgCardServicios {
+  .imgCardServicios {
     width: 17rem;
+    height: auto;
+    object-fit: cover; } }
+
+@media screen and (min-width: 2000px) {
+  .cardServicios {
+    width: 20rem; }
+  .h5Servicios {
+    margin-top: 35px;
+    padding: 60px;
+    margin-bottom: 35px;
+    text-shadow: 2px 2px 2px #020202;
+    font-size: 40px; }
+  .h2Servicios {
+    margin-bottom: 35px;
+    font-size: 55px; }
+  .imgCardServicios {
+    width: 30rem;
     height: auto;
     object-fit: cover; } }
 
@@ -291,6 +307,9 @@ input, textarea, select {
   align-items: center;
   align-content: center; }
 
+.mainGaleria {
+  z-index: 1; }
+
 footer {
   display: flex;
   flex-direction: row;
@@ -329,6 +348,10 @@ footer {
     text-align: center;
     font-size: 10px;
     text-shadow: 1px 1px 1px black; }
+  .whatsappCelular {
+    display: inline; }
+  .whatsappWeb {
+    display: none; }
   .tamaño {
     height: 40px;
     width: 40px; }
@@ -345,6 +368,10 @@ footer {
     text-align: center;
     font-size: 20px;
     text-shadow: 2px 2px 2px black; }
+  .whatsappCelular {
+    display: none; }
+  .whatsappWeb {
+    display: inline; }
   .tamaño {
     height: 80px;
     width: 80px; }

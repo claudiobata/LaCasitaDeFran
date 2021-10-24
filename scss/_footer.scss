@@ -34,6 +34,12 @@ footer{
         font-size: 10px;
         text-shadow: 1px 1px 1px black;
     }
+    .whatsappCelular{
+    display:inline; 
+    }
+    .whatsappWeb{
+        display:none; 
+    }
     .tamaño{
         height: 40px;
         width: 40px;
@@ -54,6 +60,12 @@ footer{
         font-size: 20px;
         text-shadow: 2px 2px 2px black;
     }
+    .whatsappCelular{
+        display:none; 
+        }
+        .whatsappWeb{
+            display:inline; 
+        }
     .tamaño{
         height: 80px;
         width: 80px;
@@ -65,3 +77,4 @@ footer{
         margin-bottom: 30px;
     }
 }
+
